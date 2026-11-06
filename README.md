@@ -33,13 +33,13 @@
 
 本技能不保证原作流量可以复制，也不会把他人的经历改成你的自述。需要新脚本的口语打磨可用 `lany-short-video-script-skill`；发布后复盘可用 `lany-content-experiment-skill`。
 
-[查看来源与删改说明](references/sources.md)
+[查看方法笔记](references/methods.md)
 
-## 2026 年星球增补
+## 延伸用法
 
 新增前提对照，避免照搬转折与表面动作。调用例：`$lany-content-remix-skill 这是两个对标和我的素材，请把可直接借用、需要修改、不适用的机制分开，缺失的原作者判断保持未知。`
 
-[增补来源与适用边界](references/zsxq-2026.md)。原有小报童方法与说明保留。
+[方法笔记与适用边界](references/methods.md)。本页资料为学习材料的重新整理，不是原文复刻。
 
 ## 独立仓库与安装
 
@@ -54,4 +54,4 @@ git clone https://github.com/LanyXiaosheng/lany-content-remix-skill.git ~/.codex
 
 已设置 `CODEX_HOME` 时，将目标改为该目录下的 `skills/lany-content-remix-skill`。已有同名技能时先比较或备份，不覆盖。客户端发现技能后，使用 `$lany-content-remix-skill` 调用。
 
-初次拆分的提交历史继续保留；当前工作版本已纳入2026年知识星球增强方法。
+当前版本附自包含方法笔记，无需访问外部原文；现有仓库提交历史保留。
